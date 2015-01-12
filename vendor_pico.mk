@@ -64,6 +64,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
     vendor/htc/pico/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/htc/pico/proprietary/bin/qmuxd:system/bin/qmuxd
+
+# Sensors
+PRODUCT_COPY_FILES += \
+    vendor/htc/pico/proprietary/lib/hw/sensors.pico.so:system/lib/hw/sensors.pico.so
     
 # Bluetooth
 PRODUCT_COPY_FILES += \
