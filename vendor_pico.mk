@@ -15,9 +15,11 @@ PRODUCT_COPY_FILES += \
     
 # OMX
 PRODUCT_COPY_FILES += \
-    vendor/htc/pico/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/htc/pico/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/htc/pico/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+   vendor/htc/pico/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.s$
+   vendor/htc/pico/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+   vendor/htc/pico/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
+
+#PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/htc/pico/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
     vendor/htc/pico/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
