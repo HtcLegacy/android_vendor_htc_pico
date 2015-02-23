@@ -17,7 +17,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    vendor/htc/pico/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
    vendor/htc/pico/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-   vendor/htc/pico/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
+   vendor/htc/pico/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+   vendor/htc/pico/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+   vendor/htc/pico/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
 
 #PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
