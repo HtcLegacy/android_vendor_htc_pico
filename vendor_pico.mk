@@ -76,4 +76,34 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_COPY_FILES += \
     vendor/htc/pico/proprietary/etc/firmware/BCM4330B1_002.001.003.0221.0228.hcd:system/etc/firmware/BCM4330B1_002.001.003.0221.0228.hcd
+	
+# Ofline Charging
+PRODUCT_COPY_FILES += \
+    vendor/htc/pico/proprietary/bin/charging:system/bin/charging \
+    vendor/htc/pico/proprietary/bin/zchgd:system/bin/zchgd \
+    vendor/htc/pico/proprietary/bin/shutdown:system/bin/shutdown \
+    vendor/htc/pico/proprietary/media/zchgd/batt_0.rle:system/media/zchgd/batt_0.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_100.rle:system/media/zchgd/batt_100.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_10.rle:system/media/zchgd/batt_10.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_20.rle:system/media/zchgd/batt_20.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_30.rle:system/media/zchgd/batt_30.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_40.rle:system/media/zchgd/batt_40.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_50.rle:system/media/zchgd/batt_50.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_5.rle:system/media/zchgd/batt_5.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_60.rle:system/media/zchgd/batt_60.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_70.rle:system/media/zchgd/batt_70.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_80.rle:system/media/zchgd/batt_80.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_90.rle:system/media/zchgd/batt_90.rle \
+    vendor/htc/pico/proprietary/media/zchgd/batt_95.rle:system/media/zchgd/batt_95.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_00.rle:system/media/zchgd/charging_00.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_01.rle:system/media/zchgd/charging_01.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_02.rle:system/media/zchgd/charging_02.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_03.rle:system/media/zchgd/charging_03.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_04.rle:system/media/zchgd/charging_04.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_05.rle:system/media/zchgd/charging_05.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_06.rle:system/media/zchgd/charging_06.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_07.rle:system/media/zchgd/charging_07.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_08.rle:system/media/zchgd/charging_08.rle \
+    vendor/htc/pico/proprietary/media/zchgd/charging_09.rle:system/media/zchgd/charging_09.rle \
+    vendor/htc/pico/proprietary/media/zchgd/error.rle:system/media/zchgd/error.rle
     
